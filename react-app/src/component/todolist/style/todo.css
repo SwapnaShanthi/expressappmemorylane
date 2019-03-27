@@ -1,0 +1,103 @@
+.taskreceivediv{
+    border-top:.5px  solid gray;
+    border-left:.5px  solid gray;
+    border-right:.5px  solid gray;
+    width:500px;
+    height:50px;
+    display:flex;
+    justify-content:right;
+
+}
+.inputstyle{
+
+    background-color: transparent;
+    border: 0px solid;
+    width:500px;
+    height:50px;
+    color:rgb(184, 182, 182);
+    font-size: 25px;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+.tasklistdiv{
+
+    border-top:.5px  solid gray;
+    border-left:.5px  solid gray;
+    border-right:.5px  solid gray;
+    width:500px;
+    height:auto;
+    display:flex;
+}
+.listdiv{
+    display:flex;
+    padding-left:10px;
+}
+li{
+    
+    list-style-type: none;
+    margin: 0;
+    padding-bottom: 10px;
+    display: flex;
+    color:grey;
+    
+}
+
+.taskselectordiv{
+    
+    border:.5px solid gray;
+    width:500px;
+    height:50px;
+    justify-content: flex-start;
+     
+}
+.outerdiv{
+    margin:70px;
+    justify-content: center;
+    display:flex;
+    flex-direction:column;
+}
+
+.beforeclick{
+    background-color:white;
+    border: .5px solid #FFF;
+    border-radius: 50%;
+    box-shadow: 0 0 0 .5px #888;
+    height: 20px;
+    width: 20px;
+    font-size: 18px;
+
+
+}
+.afterclick{
+    background-color:rgb(41, 114, 69);
+    border: .5px solid #FFF;
+    border-radius: 50%;
+    box-shadow: 0 0 0 .5px #888;
+    height: 20px;
+    width: 20px;
+    
+
+
+}
+.buttonselector{
+    border:none;
+    height:30px;
+    width: auto;
+    font-size: 18px;
+    color:grey;
+
+}
+.innerselectordiv{
+    padding-top:10px;
+    margin-left:30px;
+    display: inline-block;
+    color:grey;
+    
+
+}
+.error{
+    color:red;
+    padding-left:0;
+    padding-bottom:10px;
+}
